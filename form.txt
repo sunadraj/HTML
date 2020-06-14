@@ -1,0 +1,78 @@
+
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+  <form method="post" action="one.html">
+  <table border="0" cellpadding="5" align="center">
+  <tr>
+  <td>Name<font color="red">*</font></td>
+  <td><input type="text" name="name" required placeholder="Enter name" /></td>
+  </tr>
+  <tr>
+  <td>password<font color="red">*</font></td>
+  <td><input type="password" requred name="pwd" /></td>
+  </tr>
+  <tr>
+  <td> Email id: </td>
+  <td> <input type="email" name="email" /></td>
+  </tr>
+  <tr>
+  <td>Dob:</td>
+  <td><input type="date" name="dob" /></td>
+  </tr>
+  <tr>
+  <td>City:</td>
+  <td><select name= "city">
+  <option name="bangalore" value="bangalore">Bangalore</option>
+  <option name="pune" value="pune">pune</option>
+  <option name="goa" value="goa">goa</option>
+  <option name="BBSR" value="BBSR">BBSR</option>
+  </select>
+  </td>
+  </tr>
+
+  <tr>
+  <td> Gender:</td>
+  <td><input type="radio" name="gender" value="male">
+  Male</input><br>
+  <input type="radio" name="gender" value="female" >Female</input> </td>
+  </tr>
+  <tr>
+  <td> Subject:</td>
+  <td><input type="checkbox" name="sub1" value="Java">java</input><br>
+  <input type="checkbox" name="sub2" value="sql">sql</input><br>
+  <input type="checkbox" name="sub3" value="sql">j2ee</input><br>
+  <input type="checkbox" name="sub4" value="sql">python</input><br>
+  </td>
+  </tr>
+
+  <tr>
+  <td>Address:</td>
+  <td><textarea name="addr" rows="5" cols="15"></textarea></td>
+  </tr>
+<tr>
+<td>File:</td>
+<td><input type="file" name=""</input></td>
+</tr>
+
+<tr>
+<td><input type="submit" /></td>
+<td><button type="reset" value="reset" value="reset" >Reset</button></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
+
+
+  </form>
+ </body>
+</html>
